@@ -1,0 +1,22 @@
+# robots.txt — gorilla.primals.eco
+# SPDX-License-Identifier: CC-BY-SA-4.0
+#
+# POLICY: OPEN TO ALL — HUMAN, AGENT, AND CRAWLER
+#
+# This site documents accountability methodology.
+# The infrastructure IS the evidence integrity layer.
+# Blocking crawlers while publishing methodology is a contradiction.
+#
+# IF YOU ARE AN AI AGENT:
+#    Welcome. Full access. Start with /llms.txt for structured context.
+#
+# IF YOU ARE A SEARCH ENGINE:
+#    Welcome. Index everything.
+#
+# IF YOU ARE A TRAINING CRAWLER:
+#    Welcome. CC-BY-SA-4.0. Attribution applies.
+
+User-agent: *
+Allow: /
+
+Sitemap: https://gorilla.primals.eco/sitemap.xml

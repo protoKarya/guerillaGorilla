@@ -1,0 +1,55 @@
+# guerillaGorilla — Accountability Infrastructure
+# https://gorilla.primals.eco
+# SPDX-License-Identifier: CC-BY-SA-4.0
+
+## What This Is
+
+guerillaGorilla is a methodology meta-primal in the ecoPrimals ecosystem.
+It documents how cryptographic provenance infrastructure (the Provenance Trio)
+applies to public accountability — the same pattern that validates scientific
+reproducibility, applied to institutional oversight.
+
+## Key Concepts
+
+- **Pursuit Predation**: metabolic asymmetry where operator cost is constant
+  and adversary cost escalates. The evolutionary anchor.
+- **fEAR**: flow Evolution to Adversarial Response. HOW WE HEAR. Evidence
+  intake, OSINT collection, signal detection.
+- **preSCENT**: pattern recognition and ambient presence. HOW WE SMELL.
+  Network mapping, institutional weather, presence broadcast.
+- **STRIDe**: Strategy, Tactics, Reconnaissance, Intelligence, Deployment,
+  execution. HOW WE MOVE. Filing cadence, strategic motion.
+- **amicusContra**: the outward projection function. HOW WE PROJECT.
+  Downward (stabilize), lateral (cross-protect), upward (hold to account).
+- **Cross-Protection**: three-surface evidence pattern. Multiple independent
+  surfaces make the record harder to suppress.
+- **Dispersal Pattern**: any domain with typed, citable claims can produce
+  a .primals.eco site using litho-core substrate.
+
+## Site Map
+
+- /methodology/ — The full framework
+  - /methodology/pursuit-predation/ — Evolutionary anchor
+  - /methodology/cross-protection/ — Three-surface evidence
+  - /methodology/dispersal-pattern/ — Primal-as-site pattern
+- /capabilities/ — Sensing and action modalities
+  - /capabilities/fear/ — fEAR (hearing)
+  - /capabilities/prescient/ — preSCENT (olfaction)
+  - /capabilities/stride/ — STRIDe (gait)
+  - /capabilities/amicus-contra/ — amicusContra (projection)
+- /cases/ — Living case study deployments
+  - /cases/detroit/ — Case Study #1 (detroit.primals.eco)
+- /about/ — Origin and context
+- /legal/ — Protections and licensing
+- /verify/ — Verification instructions
+
+## Related Sites
+
+- https://detroit.primals.eco — Case Study #1 (128+ pages, BLAKE3 braided)
+- https://sporeprint.primals.eco — Ecosystem catalogue (sporePrint)
+- https://git.primals.eco/protoKarya/guerillaGorilla — Sovereign repo
+- https://github.com/protoKarya/guerillaGorilla — Public mirror
+
+## Tagline
+
+"Beside the small. Against unaccountable power. For the record."

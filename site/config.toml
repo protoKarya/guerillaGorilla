@@ -1,0 +1,122 @@
+base_url = "https://gorilla.primals.eco"
+title = "guerillaGorilla — Accountability Infrastructure"
+description = "Methodology meta-primal: the Provenance Trio applied to public accountability. fEAR · preSCENT · STRIDe. Pursuit predation as institutional oversight. Infrastructure IS the evidence integrity layer."
+compile_sass = false
+build_search_index = true
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+generate_sitemap = true
+minify_html = true
+
+[link_checker]
+external_level = "warn"
+skip_prefixes = [
+    "https://cofs.lara.state.mi.us",
+    "https://apps.michigan.gov/ichat",
+    "https://mdocweb.state.mi.us",
+]
+
+# ── Taxonomies — relational layer ────────────────────────────────────────
+[[taxonomies]]
+name = "capabilities"
+feed = true
+
+[[taxonomies]]
+name = "cases"
+feed = true
+
+[[taxonomies]]
+name = "domains"
+
+[markdown]
+smart_punctuation = true
+
+[markdown.highlighting]
+enabled = true
+light_theme = "github-light"
+dark_theme = "github-dark"
+
+[search]
+include_title = true
+include_description = true
+include_content = true
+
+[extra]
+author = "ecoPrimal"
+repo_url = "https://git.primals.eco/protoKarya/guerillaGorilla"
+github_url = "https://github.com/protoKarya/guerillaGorilla"
+
+# ── Capability Registry ──────────────────────────────────────────────────
+
+[extra.capabilities.fear]
+display = "fEAR"
+emoji = "👂"
+role = "HOW WE HEAR"
+description = "Evidence intake, OSINT collection, signal detection. Event-driven, discrete, receive-only. Long range."
+page = "/capabilities/fear/"
+
+[extra.capabilities.prescient]
+display = "preSCENT"
+emoji = "👃"
+role = "HOW WE SMELL"
+description = "Pattern recognition, network mapping, graph analysis. State-driven, gradients, bidirectional. Close range."
+page = "/capabilities/prescient/"
+
+[extra.capabilities.stride]
+display = "STRIDe"
+emoji = "🦶"
+role = "HOW WE MOVE"
+description = "Filing, publication, strategic action. Continuous, proprioceptive. Self range."
+page = "/capabilities/stride/"
+
+[extra.capabilities.pursuit_predation]
+display = "Pursuit Predation"
+emoji = "🦍"
+role = "WHY IT WORKS"
+description = "Persistence + endurance vs sprint evasion. Metabolic asymmetry where operator cost is constant and adversary cost escalates."
+page = "/methodology/pursuit-predation/"
+
+[extra.capabilities.cross_protection]
+display = "Cross-Protection"
+emoji = "🛡️"
+role = "HOW WE SURVIVE"
+description = "Multiple independent surfaces, legal shields. Three-surface evidence pattern."
+page = "/methodology/cross-protection/"
+
+[extra.capabilities.amicus_contra]
+display = "amicusContra"
+emoji = "⚖️"
+role = "HOW WE PROJECT"
+description = "Outward function — project capabilities toward cases operator is not party to. Downward (stabilize), lateral (cross-protect), upward (hold to account)."
+page = "/capabilities/amicus-contra/"
+
+# ── Case Registry ────────────────────────────────────────────────────────
+
+[extra.cases.detroit]
+display = "Detroit Charter Schools"
+emoji = "🏫"
+status = "ACTIVE"
+site = "https://detroit.primals.eco"
+description = "Cash for Kids 2. 9 convictions. 9 judges. $4.9M/yr public funding. 128+ pages. BLAKE3 braided."
+page = "/cases/detroit/"
+
+# ── Domain Registry ──────────────────────────────────────────────────────
+
+[extra.domains.legal]
+display = "Legal / Public Accountability"
+description = "Courts, filings, FOIA, institutional forensics"
+
+[extra.domains.science]
+display = "Science / Reproducibility"
+description = "Papers, datasets, protocols — same standard upward"
+
+[extra.domains.medical]
+display = "Medical / Evidence-Based"
+description = "Clinical trials, protocols, outcomes"
+
+# ── Provenance Trio Mapping ──────────────────────────────────────────────
+
+[extra.provenance_trio]
+ephemeral = "fossilRecord (epoch archives)"
+certificate = "CASE_REGISTRY (typed roles)"
+attribution = "GRAPH_DATA (entity intelligence)"

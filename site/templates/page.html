@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} — {{ config.title }}{% endblock title %}
+{% block description %}{{ page.description | default(value=config.description) }}{% endblock description %}
+
+{% block content %}
+<article class="content-page">
+  <header>
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}
+    <p class="page-desc">{{ page.description }}</p>
+    {% endif %}
+    {% if page.date %}
+    <time datetime="{{ page.date | date(format='%Y-%m-%d') }}">{{ page.date | date(format='%B %d, %Y') }}</time>
+    {% endif %}
+  </header>
+
+  <div class="page-body">
+    {{ page.content | safe }}
+  </div>
+
+  {% if page.taxonomies.capabilities %}
+  <footer class="page-meta">
+    <p><strong>Capabilities:</strong>
+      {% for cap in page.taxonomies.capabilities %}
+        <a href="{{ get_taxonomy_url(kind='capabilities', name=cap) }}">{{ cap }}</a>{% if not loop.last %}, {% endif %}
+      {% endfor %}
+    </p>
+  </footer>
+  {% endif %}
+</article>
+{% endblock content %}

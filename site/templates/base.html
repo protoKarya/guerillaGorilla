@@ -1,0 +1,140 @@
+{# SPDX-License-Identifier: CC-BY-SA-4.0 #}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ config.title }}{% endblock title %}</title>
+  <meta name="description" content="{% block description %}{{ config.description }}{% endblock description %}">
+  <link rel="canonical" href="{{ current_url | default(value=config.base_url) | safe }}">
+  <meta property="og:title" content="{% block og_title %}{{ config.title }}{% endblock og_title %}">
+  <meta property="og:description" content="{% block og_desc %}{{ config.description }}{% endblock og_desc %}">
+  <meta property="og:type" content="{% block og_type %}website{% endblock og_type %}">
+  <meta property="og:url" content="{{ current_url | default(value=config.base_url) }}">
+  <meta property="og:site_name" content="guerillaGorilla — Accountability Infrastructure">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% block tw_title %}{{ config.title }}{% endblock tw_title %}">
+  <meta name="twitter:description" content="{% block tw_desc %}{{ config.description }}{% endblock tw_desc %}">
+  <meta name="keywords" content="{% block keywords %}guerillaGorilla, accountability infrastructure, provenance trio, pursuit predation, fEAR, preSCENT, STRIDe, amicusContra, institutional forensics, public records{% endblock keywords %}">
+  <link rel="describedby" href="{{ get_url(path='llms.txt') }}" type="text/plain" title="AI agent context">
+  <script>
+    (function(){
+      var t = localStorage.getItem('theme');
+      if (t === 'light') document.documentElement.setAttribute('data-theme','light');
+      else document.documentElement.setAttribute('data-theme','dark');
+    })();
+  </script>
+  <link rel="stylesheet" href="{{ get_url(path='css/main.css') }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path='atom.xml') }}">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "name": "{{ config.title }}",
+        "url": "{{ config.base_url | safe }}",
+        "description": "{{ config.description }}",
+        "author": { "@type": "Person", "name": "{{ config.extra.author }}" }
+      },
+      {
+        "@type": "Article",
+        "headline": "guerillaGorilla — Accountability Infrastructure",
+        "description": "{{ config.description }}",
+        "author": { "@type": "Person", "name": "{{ config.extra.author }}" },
+        "datePublished": "2026-09-27",
+        "dateModified": "{{ now() | date(format='%Y-%m-%d') }}",
+        "keywords": "accountability, institutional forensics, provenance, pursuit predation"
+      },
+      {
+        "@type": "SoftwareSourceCode",
+        "name": "protoKarya/guerillaGorilla",
+        "codeRepository": "{{ config.extra.repo_url | safe }}",
+        "sameAs": ["{{ config.extra.github_url | safe }}"]
+      }
+    ]
+  }
+  </script>
+  <link rel="icon" type="image/svg+xml" href="{{ get_url(path='favicon.svg') }}">
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="{{ config.base_url }}" class="nav-brand">🦍 guerillaGorilla</a>
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light mode" title="Toggle theme">
+        <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+        <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      </button>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="search-wrapper" id="search-wrapper">
+        <input type="search" id="search-input" placeholder="Search capabilities, cases…" autocomplete="off" aria-label="Search site">
+        <div class="search-results" id="search-results"></div>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="{{ get_url(path='@/methodology/_index.md') }}">Methodology</a></li>
+        <li><a href="{{ get_url(path='@/capabilities/_index.md') }}">Capabilities</a></li>
+        <li><a href="{{ get_url(path='@/cases/_index.md') }}">Cases</a></li>
+        <li><a href="{{ get_url(path='@/about/_index.md') }}">About</a></li>
+        <li><a href="{{ get_url(path='@/legal/_index.md') }}">Legal</a></li>
+        <li><a href="{{ get_url(path='@/verify/_index.md') }}">Verify</a></li>
+        <li><a href="{{ config.extra.repo_url }}" rel="noopener">Git Repo</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="main" class="site-main">
+    {% block content %}{% endblock content %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <p><strong><em>"Beside the small. Against unaccountable power. For the record."</em></strong></p>
+      <p style="font-size:0.9rem;">
+        Source: <a href="{{ config.extra.repo_url }}">git.primals.eco</a> |
+        Mirror: <a href="{{ config.extra.github_url }}">GitHub</a> |
+        Parent: <a href="https://sporeprint.primals.eco">sporePrint</a>
+      </p>
+      <p class="footer-license">
+        Content: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>.
+        Infrastructure: <a href="https://www.gnu.org/licenses/agpl-3.0.html">AGPL-3.0</a>.
+      </p>
+    </div>
+  </footer>
+
+  <script src="{{ get_url(path='elasticlunr.min.js') }}"></script>
+  <script src="{{ get_url(path='search_index.en.js') }}"></script>
+  <script>
+    (function() {
+      var searchInput = document.getElementById('search-input');
+      var searchResults = document.getElementById('search-results');
+      var idx = null;
+      if (searchInput && window.searchIndex) {
+        idx = elasticlunr.Index.load(window.searchIndex);
+        searchInput.addEventListener('input', function() {
+          var q = this.value.trim();
+          if (q.length < 2) { searchResults.innerHTML = ''; searchResults.style.display = 'none'; return; }
+          var results = idx.search(q, { fields: { title: {boost: 3}, body: {boost: 1}, description: {boost: 2} }, expand: true });
+          if (!results.length) { searchResults.innerHTML = '<div class="sr-empty">No results</div>'; searchResults.style.display = 'block'; return; }
+          var html = results.slice(0, 8).map(function(r) {
+            var doc = idx.documentStore.getDoc(r.ref);
+            return '<a class="sr-item" href="' + r.ref + '"><strong>' + (doc.title || 'Untitled') + '</strong><span>' + (doc.description || '').slice(0, 120) + '</span></a>';
+          }).join('');
+          searchResults.innerHTML = html;
+          searchResults.style.display = 'block';
+        });
+        document.addEventListener('click', function(e) { if (!e.target.closest('#search-wrapper')) searchResults.style.display = 'none'; });
+        searchInput.addEventListener('keydown', function(e) { if (e.key === 'Escape') { searchResults.style.display = 'none'; this.blur(); } });
+      }
+      var toggle = document.querySelector('.nav-toggle');
+      var links = document.querySelector('.nav-links');
+      if (toggle && links) { toggle.addEventListener('click', function() { var e = this.getAttribute('aria-expanded') === 'true'; this.setAttribute('aria-expanded', !e); links.classList.toggle('open'); }); }
+      var btn = document.getElementById('theme-toggle');
+      if (btn) { btn.addEventListener('click', function() { var h = document.documentElement, c = h.getAttribute('data-theme'), n = c === 'dark' ? 'light' : 'dark'; h.setAttribute('data-theme', n); localStorage.setItem('theme', n); }); }
+    })();
+  </script>
+</body>
+</html>

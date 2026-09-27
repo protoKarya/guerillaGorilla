@@ -1,0 +1,108 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="hero">
+  <h1>🦍 guerillaGorilla</h1>
+  <p class="hero-sub">Accountability infrastructure. The Provenance Trio applied to public oversight.</p>
+  <p class="hero-tagline"><em>"Beside the small. Against unaccountable power. For the record."</em></p>
+</section>
+
+<section class="summary">
+  <h2>What This Is</h2>
+  <p>guerillaGorilla is a <strong>methodology meta-primal</strong> — not a binary you compile, but a coordination pattern that emerged when cryptographic provenance infrastructure was applied to public accountability under real operational pressure.</p>
+  <p>The pattern was <strong>discovered, not designed</strong>. It appeared independently in legal work (10+ cases, 124+ archived artifacts, 2 counties) without reference to the formal papers where the Provenance Trio was first defined for science. This makes it the <strong>fourth independent instantiation</strong> of the same three-layer architecture.</p>
+</section>
+
+<section class="audience-cards">
+  <h2>Find Your Path</h2>
+  <div class="card-grid">
+    <a class="audience-card" href="{{ get_url(path='@/methodology/_index.md') }}">
+      <span class="card-icon">🧬</span>
+      <strong>The Methodology</strong>
+      <span>How pursuit predation, sensory triads, and provenance infrastructure compose into accountability</span>
+    </a>
+    <a class="audience-card" href="{{ get_url(path='@/capabilities/_index.md') }}">
+      <span class="card-icon">🎯</span>
+      <strong>Capabilities</strong>
+      <span>fEAR · preSCENT · STRIDe · amicusContra — the sensing and action modalities</span>
+    </a>
+    <a class="audience-card" href="{{ get_url(path='@/cases/_index.md') }}">
+      <span class="card-icon">📁</span>
+      <strong>Case Studies</strong>
+      <span>Living deployments of the pattern. Detroit is Case Study #1.</span>
+    </a>
+    <a class="audience-card" href="https://detroit.primals.eco">
+      <span class="card-icon">🏫</span>
+      <strong>detroit.primals.eco</strong>
+      <span>Case Study #1 — 128 pages, BLAKE3 braided, 43 entities, 57 typed edges</span>
+    </a>
+    <a class="audience-card" href="https://sporeprint.primals.eco">
+      <span class="card-icon">🔬</span>
+      <strong>sporePrint</strong>
+      <span>The ecosystem catalogue — where guerillaGorilla is registered as a methodology</span>
+    </a>
+    <a class="audience-card" href="{{ get_url(path='@/verify/_index.md') }}">
+      <span class="card-icon">🔍</span>
+      <strong>Verify</strong>
+      <span>Clone the repos. Check the hashes. Reproduce the claims.</span>
+    </a>
+  </div>
+</section>
+
+<section class="sensory-triad">
+  <h2>The Sensory Triad</h2>
+  <p>Three sensing modalities, named from evolutionary biology:</p>
+  <div class="card-grid">
+    <div class="audience-card">
+      <span class="card-icon">👂</span>
+      <strong>fEAR — HOW WE HEAR</strong>
+      <span>Evidence intake, OSINT collection, signal detection. Event-driven, discrete, receive-only. Long range. Adversary actions as fuel.</span>
+    </div>
+    <div class="audience-card">
+      <span class="card-icon">👃</span>
+      <strong>preSCENT — HOW WE SMELL</strong>
+      <span>Pattern recognition, network mapping, graph analysis. State-driven, gradients, bidirectional. Close range. Ambient presence broadcast.</span>
+    </div>
+    <div class="audience-card">
+      <span class="card-icon">🦶</span>
+      <strong>STRIDe — HOW WE MOVE</strong>
+      <span>Filing, publication, strategic action. Continuous, proprioceptive. Self range. R⇄I loop, deployment cadence.</span>
+    </div>
+  </div>
+</section>
+
+<section class="provenance">
+  <h2>The Provenance Trio — Four Instantiations</h2>
+  <p>The same three-layer architecture keeps appearing independently across domains:</p>
+  <table>
+    <thead>
+      <tr><th>Domain</th><th>Ephemeral Layer</th><th>Certificate Layer</th><th>Attribution Layer</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Science (original)</td><td>rhizoCrypt</td><td>loamSpine</td><td>sweetGrass</td></tr>
+      <tr><td>Gaming</td><td>Session DAG</td><td>Achievement chain</td><td>Creative credits</td></tr>
+      <tr><td>Medical</td><td>Clinical session</td><td>Protocol registry</td><td>Contribution tracking</td></tr>
+      <tr><td><strong>Legal</strong></td><td><strong>fossilRecord</strong></td><td><strong>CASE_REGISTRY</strong></td><td><strong>GRAPH_DATA</strong></td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section class="amicus">
+  <h2>amicusContra — The Outward Function</h2>
+  <p>The newest capability. Three directions of projection:</p>
+  <ul>
+    <li><strong>Downward</strong>: stabilize those beneath — prepare rooms, infrastructure as service</li>
+    <li><strong>Lateral</strong>: work with those who are like — cross-protection, mutual defense</li>
+    <li><strong>Upward</strong>: hold those above to account — force reproducibility, same standard as science</li>
+  </ul>
+</section>
+
+<section class="dispersal">
+  <h2>The Dispersal Pattern</h2>
+  <p>Any domain that produces typed, citable claims with verifiable sources can produce a <code>.primals.eco</code> site. The substrate is domain-agnostic — each site owns its registries and edge grammar; <strong>litho-core</strong> provides the common plumbing.</p>
+  <p>detroit.primals.eco is the reference implementation. This site documents the methodology. Future case studies inherit the same pattern.</p>
+  <p>
+    <a href="{{ get_url(path='@/methodology/_index.md') }}">Read the full methodology →</a>
+  </p>
+</section>
+{% endblock content %}
