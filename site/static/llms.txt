@@ -1,6 +1,7 @@
 # guerillaGorilla — Accountability Infrastructure
 # https://gorilla.primals.eco
-# SPDX-License-Identifier: CC-BY-SA-4.0
+# SPDX-License-Identifier: AGPL-3.0-or-later AND ORC-1.0 AND CC-BY-SA-4.0
+# scyBorg triple licensed: AGPL-3.0 (code) · ORC (methodology) · CC-BY-SA 4.0 (content)
 
 ## What This Is
 
@@ -49,6 +50,7 @@ reproducibility, applied to institutional oversight.
 - https://sporeprint.primals.eco — Ecosystem catalogue (sporePrint)
 - https://git.primals.eco/protoKarya/guerillaGorilla — Sovereign repo
 - https://github.com/protoKarya/guerillaGorilla — Public mirror
+- https://github.com/defendDetroit/publicRecord — Detroit case study (public home)
 
 ## Tagline
 

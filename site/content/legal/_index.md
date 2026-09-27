@@ -4,9 +4,17 @@ description = "Legal protections, licensing, and the framework's relationship to
 template = "section.html"
 +++
 
-## Content License
+## scyBorg Triple License
 
-All original content on this site is licensed under [Creative Commons Attribution-ShareAlike 4.0 International (CC-BY-SA-4.0)](https://creativecommons.org/licenses/by-sa/4.0/). Infrastructure code is licensed under [AGPL-3.0-or-later](https://www.gnu.org/licenses/agpl-3.0.html).
+All ecoPrimals and protoKarya work uses the **scyBorg triple copyleft**:
+
+| Layer | License | Covers |
+|-------|---------|--------|
+| **Code** | [AGPL-3.0-or-later](https://www.gnu.org/licenses/agpl-3.0.html) | Templates, build crates, litho-core, infrastructure |
+| **Methodology** | [ORC](https://paizo.com/community/blog/v5748dyo6sico) | fEAR/preSCENT/STRIDe framework, pursuit predation, amicusContra, dispersal pattern |
+| **Content** | [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) | Written pages, analysis, case studies, documentation |
+
+The triple ensures every layer remains open. Use the code → your code must be open. Use the methodology → your methodology must be open. Use the content → attribute and share alike.
 
 ## Legal Protections
 
@@ -21,4 +29,4 @@ This site publishes truthful information derived from public records about matte
 
 This work is formally citable. Use CC-BY-SA-4.0 attribution:
 
-> ecoPrimal. (2026). guerillaGorilla — Accountability Infrastructure. gorilla.primals.eco. CC-BY-SA-4.0.
+> ecoPrimal. (2026). guerillaGorilla — Accountability Infrastructure. gorilla.primals.eco. scyBorg triple licensed (AGPL-3.0 / ORC / CC-BY-SA-4.0).

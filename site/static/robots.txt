@@ -1,5 +1,6 @@
 # robots.txt — gorilla.primals.eco
-# SPDX-License-Identifier: CC-BY-SA-4.0
+# SPDX-License-Identifier: AGPL-3.0-or-later AND ORC-1.0 AND CC-BY-SA-4.0
+# scyBorg triple licensed
 #
 # POLICY: OPEN TO ALL — HUMAN, AGENT, AND CRAWLER
 #

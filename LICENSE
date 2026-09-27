@@ -1,7 +1,47 @@
-SPDX-License-Identifier: CC-BY-SA-4.0
+# scyBorg Triple License
 
-Creative Commons Attribution-ShareAlike 4.0 International
+This work is licensed under the **scyBorg triple copyleft**:
 
-Copyright (c) 2026 ecoPrimals
+## 1. AGPL-3.0-or-later — Code
 
-Full license text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+All code, templates, build scripts, and infrastructure configuration.
+
+Full text: https://www.gnu.org/licenses/agpl-3.0.html
+
+## 2. ORC — Methodology & Game Mechanics
+
+All methodology patterns, frameworks, capability definitions, coordination
+protocols, and operational procedures. The ORC license applies to the
+guerillaGorilla methodology the same way it applies to game mechanics:
+the patterns are open, reusable, and derivative works must remain open.
+
+Full text: https://paizo.com/community/blog/v5748dyo6sico
+
+## 3. CC-BY-SA 4.0 — Content & Documentation
+
+All written content, analysis, documentation, and site pages.
+
+Full text: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+
+---
+
+## Why Three Licenses
+
+Each license covers a different layer of the work:
+
+| Layer | License | What it covers |
+|-------|---------|----------------|
+| **Code** | AGPL-3.0-or-later | Zola templates, build crates, litho-core, infrastructure |
+| **Methodology** | ORC | fEAR/preSCENT/STRIDe framework, pursuit predation, amicusContra, dispersal pattern |
+| **Content** | CC-BY-SA 4.0 | Written pages, analysis, case studies, documentation |
+
+The scyBorg triple ensures that every layer of the work remains open.
+If you use the code, your code must be open (AGPL).
+If you use the methodology, your methodology must be open (ORC).
+If you use the content, your content must be attributed and shared alike (CC-BY-SA).
+
+---
+
+Copyright (c) 2026 ecoPrimals / protoKarya
+
+SPDX-License-Identifier: AGPL-3.0-or-later AND ORC-1.0 AND CC-BY-SA-4.0

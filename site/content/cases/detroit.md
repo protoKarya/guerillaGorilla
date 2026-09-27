@@ -58,6 +58,6 @@ detroit.primals.eco is the **digital instantiation of preSCENT** — ambient pre
 
 - **Live site**: [detroit.primals.eco](https://detroit.primals.eco)
 - **Source**: [git.primals.eco/publicRecord/detroit](https://git.primals.eco/publicRecord/detroit)
-- **Mirror**: [github.com/defendDetroit/publicRecord](https://github.com/defendDetroit/publicRecord)
+- **GitHub**: [github.com/defendDetroit/publicRecord](https://github.com/defendDetroit/publicRecord) — public home
 - **Sitemap**: [detroit.primals.eco/sitemap.xml](https://detroit.primals.eco/sitemap.xml) — 127 URLs
 - **Validation**: [detroit.primals.eco/validate/](https://detroit.primals.eco/validate/)
