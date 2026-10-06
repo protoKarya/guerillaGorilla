@@ -54,10 +54,31 @@ detroit.primals.eco is the **digital instantiation of preSCENT** — ambient pre
 | Certificate | loamSpine RFC 3161 | CASE_REGISTRY typed roles |
 | Attribution | sweetGrass PROV-O braids | GRAPH_DATA entity intelligence |
 
+## Active Defense Layer (Oct 6, 2026)
+
+detroit.primals.eco is not only a preSCENT broadcast — it is a **defended
+preSCENT broadcast**. When automated systems began scraping the investigation
+infrastructure at scale, the system evolved a five-layer immune defense that
+validated every guerillaGorilla principle in the digital domain.
+
+| Adversary | fEAR Principle Validated | Evidence |
+|---|---|---|
+| **Meta/Facebook** (558 requests, 471 blocked, 3 hours) | Adversary builds the prosecution | 558 timestamped exhibits, each showing willful access after notice |
+| **Residential proxy fleet** (10,198 requests, 3,075+ IPs) | Adversary cannot research without revealing fears | Fleet targeted defense docs + investigation planning = involuntary intelligence confession |
+| **Anonymous scanner fleet** (390 probes) | Irrational adversaries are optimal | Probed for WordPress vulns on a Rust static site; served canary credentials |
+
+**The billboard** — [detroit.primals.eco/signal/](https://detroit.primals.eco/signal/) —
+is proactive defense applied to digital infrastructure. Published at 12:05 PM ET while
+Meta was still scraping. Every subsequent request measured against that timestamp.
+
+See [CASE_VALIDATION.md](https://git.primals.eco/ecoPrimals/whitePaper) §Digital Defense
+for full fEAR/STRIDe/preSCENT/amicusContra validation against corporate adversaries.
+
 ## Verify
 
 - **Live site**: [detroit.primals.eco](https://detroit.primals.eco)
 - **Source**: [git.primals.eco/publicRecord/detroit](https://git.primals.eco/publicRecord/detroit)
 - **GitHub**: [github.com/defendDetroit/publicRecord](https://github.com/defendDetroit/publicRecord) — public home
-- **Sitemap**: [detroit.primals.eco/sitemap.xml](https://detroit.primals.eco/sitemap.xml) — 127 URLs
+- **Sitemap**: [detroit.primals.eco/sitemap.xml](https://detroit.primals.eco/sitemap.xml) — 233+ URLs
 - **Validation**: [detroit.primals.eco/validate/](https://detroit.primals.eco/validate/)
+- **Signal**: [detroit.primals.eco/signal/](https://detroit.primals.eco/signal/) — live billboard

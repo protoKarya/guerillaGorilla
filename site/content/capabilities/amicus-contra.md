@@ -163,6 +163,32 @@ amicusContra is not a new primal. It is not a sub-primal. It is a **function** �
 
 It emerged from operational pressure — the same way fEAR emerged from OSINT, STRIDe emerged from filing sequences, and preSCENT emerged from the ritualistic channel. The methodology built for one case transfers to any case where the same institutional patterns are present. The same ear. The same nose. The same gait. Different terrain.
 
+## Live Instantiation — The Billboard (Oct 6, 2026)
+
+amicusContra's three directions activated simultaneously on October 6, 2026,
+when the [detroit signal page](https://detroit.primals.eco/signal/) was updated
+with a public record of automated access to the investigation infrastructure.
+
+| Direction | Target | Action Taken |
+|-----------|--------|-------------|
+| **Downward** | Other defenders | Daily threat intelligence feed published at `detroit.primals.eco/defense/feed.json` — behavioral hashes with no PII. Any defender can match these signatures against their own logs |
+| **Lateral** | Other investigation operators | Billboard names corporate entities that scrape investigation sites. The behavioral evidence is reusable by anyone facing the same scraping patterns |
+| **Upward** | Meta Platforms, Inc. ($1.5T) | Named on the public record with behavioral evidence: 558 requests, 471 blocked, robots.txt read 4× and ignored, continued after the billboard was published. Held to the same reproducibility standard as a physics experiment — "you read the rules, you received the denial, you continued. The record proves this" |
+
+**The five-layer immune defense** (tarpit, honeytokens, abuse reports, threat
+feed, law enforcement escalation) is amicusContra infrastructure. Each layer
+projects outward:
+
+- **Layer 1 (tarpit)**: Protects the infrastructure by wasting adversary resources
+- **Layer 2 (honeytokens)**: Creates consequences at third-party systems (AWS, GitHub)
+  when scrapers harvest and use fake credentials
+- **Layer 3 (abuse reports)**: Recruits ISP/hosting immune response through legitimate channels
+- **Layer 4 (threat feed)**: Downward projection — shared intelligence as public good
+- **Layer 5 (LE escalation)**: Upward projection — formal accountability through IC3, FBI, state AG
+
+The billboard is the visible face. The defense layers are the substrate. Together
+they instantiate all three amicusContra directions from a single evidence set.
+
 ## Tagline
 
 > *"The answer is not to reform the river keeper. The answer is to give everyone a well."*
